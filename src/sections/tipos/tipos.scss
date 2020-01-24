@@ -1,6 +1,30 @@
 .tipos-contenedor{
+    
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    color: black;
+    width: auto;
     height: 500px;
+    padding: 40px 0 0 80px;
+    text-align: center;
+
+    h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 50px;
+        margin: 0;
+    }
+    
+    span{
+        
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    }
+}
+
+.tipos-chocoinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 60px;
+    margin-top: 60px;
 }

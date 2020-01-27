@@ -1,11 +1,11 @@
 import React from 'react';
-import Fondo from '../../imgs/bombones.jpg';
+import Fondo from '../../imgs/chocobombones.jpg';
 import './historia.scss'
 
 const Historia = () =>{
     return(
-<section className="mainhero" style={{backgroundImage: `url(${Fondo})`}}>
-<div></div>
+<section className="historia-contenedor" style={{backgroundImage: `url(${Fondo})`}}>
+<div><h1>Our Story</h1><span>Lorem impsun texto aqui que tal</span></div>
 </section>
     );
 } 

@@ -1,0 +1,35 @@
+.beans-contenedor{
+    
+    background-color: white;
+    color: black;
+    height: 600px;
+    width: auto;
+    padding-left: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    text-align: left;
+
+    h1{
+    font-size: 20px;
+    margin-top: 170px;
+    }
+
+    span{
+    font-size: 10px;
+    color: grey;
+    }
+
+    .beans-subcontenedor{
+     display: flex;
+     flex-flow: column;
+     width: 400px;   
+     
+    }
+    img{
+        width: 800px;
+        height: 600px;
+    }
+
+
+}

@@ -1,5 +1,4 @@
-
-.historia-contenedor{
+.grand-contenedor{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -8,19 +7,15 @@
     padding-top: 270px;
     padding-left: 130px;
     display: flex;
+    flex-flow: column;
     justify-content: left;
     align-items: left;
-    text-align: center;
-
+    text-align: left;
     h1{
-    font-size: 30px;
+        color: black;
+        font-size: 25px;
     }
-
     span{
-    font-size: 10px;
-    }
-
-    .historia-subcontenedor{
-     width: 400px;   
+        color: gray;
     }
 }

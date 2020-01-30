@@ -5,7 +5,7 @@ import Segundo from '../../imgs/dos.png';
 import Tercero from '../../imgs/tres.ico';
 import Bloquetxt from '../../components/bloquetxt/bloquetxt';
 import Sublink from '../../components/sublink/sublink';
-import Bestbean from '../../components/bestbean/bestbean'
+import Bestbean from '../../components/bestbean/bestbean';
 import './bestshop.scss'
 
 const Bestshop = props =>{

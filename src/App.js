@@ -7,6 +7,8 @@ import Historia from './sections/historia/historia';
 import Beans from './sections/beans/beans';
 import Grand from './sections/grandcru/grandcru';
 import Bestshop from './sections/bestshop/bestshop';
+import Trimagenes from './sections/trimagenes/trimagenes';
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
     <Beans></Beans>
     <Grand></Grand>
     <Bestshop></Bestshop>
+    <Trimagenes></Trimagenes>
     </div>
   );
 }
